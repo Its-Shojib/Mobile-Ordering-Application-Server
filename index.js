@@ -10,6 +10,7 @@ const port = process.env.PORT || 5000
 app.use(cors({
     origin: [
       'http://localhost:5173',
+      'https://galaxystore-mobile.netlify.app'
     ],
     credentials: true
   }));
